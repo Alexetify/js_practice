@@ -1,3 +1,4 @@
+import filter from './filter';
 export default function renderCatalog() {
     const cards = document.querySelectorAll('.goods .card');
     const catalogList = document.querySelector('.catalog-list');
